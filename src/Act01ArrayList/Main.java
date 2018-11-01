@@ -1,10 +1,9 @@
 package Act01ArrayList;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import Act01ArrayList.Trabajos;
 import Act01ArrayList.Utilidades;
-import Act01Excepciones.Alumnos;
+
 
 public class Main {
 
