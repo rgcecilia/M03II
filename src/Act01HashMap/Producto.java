@@ -1,8 +1,5 @@
 package Act01HashMap;
 
-import java.util.Objects;
-
-import clase5.Dinosaurio;
 
 public class Producto {
 

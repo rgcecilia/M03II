@@ -3,6 +3,7 @@ package Act01ArrayList;
 public class Trabajo {
 
 	//Atributos de la clase//
+	
 	private int idTrabajo = -1;
 	private String descripcion;
 	private double precio;
@@ -11,12 +12,15 @@ public class Trabajo {
 	private boolean finalizado;
 	
 	//Valores Necesarios//
+	
 	private static int id = -1;
 	private int fijo = 30;
 	
 	
 	//Constructores//
+	
 	public Trabajo() {}	
+	
 	public Trabajo(String descripcion, double precio, double horas, double material, boolean finalizado) {
 		id++;
 		this.idTrabajo = id;
@@ -27,7 +31,8 @@ public class Trabajo {
 		this.finalizado = finalizado;
 	}
 
-
+	//Getters and Setters//
+	
 	public String getDescripcion() {
 		return descripcion;
 	}

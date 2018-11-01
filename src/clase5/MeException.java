@@ -12,7 +12,11 @@ package clase5;
 
 public class MeException extends Exception {
     
-    private int errCode = 0;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private int errCode = 0;
     
     public MeException(int errCode){
         super();

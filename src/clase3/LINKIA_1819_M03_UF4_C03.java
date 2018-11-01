@@ -47,16 +47,12 @@ public class LINKIA_1819_M03_UF4_C03 {
         
         
         //String es por si solo un Wrappe(Clase envoltorio)
-        String pal = "Hola";
+        
         
         //Datos primitivos
-        int num = 2;
-        Object dol = 2.3;
+       
         
-        Object p = "1";
-        
-        double doble = 2.2;
-        
+     
         /*
         Clase -> Padre/Madre
             SubClase -> Hijo/Hija

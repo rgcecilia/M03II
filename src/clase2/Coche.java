@@ -14,7 +14,7 @@ public class Coche implements Cloneable{
     private String marca;
     private int potencia;
     private static int id = 0; //Creo una variable común para todos
-    private int precio;
+
     private int identificadorCoche = 0; //Es única para cada objeto
     
     
@@ -30,7 +30,7 @@ public class Coche implements Cloneable{
     //Aprovechamiento de constructores
     public Coche(String marca, int potencia,int precio){
         this(marca,potencia); //El busca un constructor que cumpla lo que le pasamos
-        this.precio = precio;
+        
     }
     
     public String getMarca(){
@@ -55,13 +55,6 @@ public class Coche implements Cloneable{
         return super.clone();
     }
 
-    public int getContadorIds(){
-        return this.id;
-    }
-
-    public int getId(){
-        return this.id;
-    }
 
     public int getIdentificadorCoche(){
         return this.identificadorCoche;

@@ -12,7 +12,7 @@ package clase3;
 public class Alumno extends Persona implements Matricular{
     
     private int nota = 10;
-    private int[] notas = new int[5];
+
 
     //Constructor del padre
     public Alumno(String nombre, int edad, char sexo,int nota) {
@@ -30,7 +30,7 @@ public class Alumno extends Persona implements Matricular{
     
     //Método para el solo que no ve Maestro
     public void aprobar(int[] notas){
-        this.notas = notas;
+       
     }
     
     

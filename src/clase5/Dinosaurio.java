@@ -17,7 +17,7 @@ public class Dinosaurio {
     //VARIABLE COMÚN A TODOS LOS OBJETOS DE LA CLASE
     private String nombre = "";
     private String tipo = "";
-    private int muertes = 0;
+
 
     public Dinosaurio(String nombre, String tipo) {
         this.nombre = nombre;
@@ -49,7 +49,7 @@ public class Dinosaurio {
             //Lanzar la excepcion
             throw new MeException(404);
         }else{
-            this.muertes = muertes;
+           
         }
     }
     

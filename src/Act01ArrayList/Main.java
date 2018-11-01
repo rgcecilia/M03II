@@ -2,15 +2,15 @@ package Act01ArrayList;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import Act01ArrayList.FuncionesTrabajo;
+import Act01ArrayList.Trabajos;
 import Act01ArrayList.Utilidades;
+import Act01Excepciones.Alumnos;
 
 public class Main {
 
 	public static void main(String[] args) throws IOException {
 		
-		Trabajo trabajo;
-		ArrayList<Trabajo> listaTrabajos = new ArrayList<Trabajo>();
+		Trabajos misTrabajos = new Trabajos();
 		int selec = 0;
 		do {
 			selec = Utilidades.pedirEntero("Seleccione una opcion \n"
@@ -23,21 +23,19 @@ public class Main {
 			
 			switch (selec) {
 				case 1:
-					trabajo = FuncionesTrabajo.registrarTrabajo();
-					listaTrabajos.add(trabajo);
-					System.out.println("Trabajo registrado con el id: " + trabajo.getIdTrabajo());
+					misTrabajos.registrarTrabajo();
 					break;
 				case 2:
-					listaTrabajos = FuncionesTrabajo.ponerHoras(listaTrabajos);
+					misTrabajos.ponerHoras();
 					break;
 				case 3:
-					listaTrabajos = FuncionesTrabajo.ponerMaterial(listaTrabajos);
+					misTrabajos.ponerMaterial();
 					break;
 				case 4:
-					listaTrabajos = FuncionesTrabajo.finalizarTrabajo(listaTrabajos);
+					misTrabajos.finalizarTrabajo();
 					break;
 				case 5:
-					FuncionesTrabajo.mostrarTrabajo(listaTrabajos);
+					misTrabajos.mostrarTrabajo();
 					break;
 				case 6:
 					System.out.println("Bye");

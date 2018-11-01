@@ -16,7 +16,7 @@ public class Maestro extends Persona{
     */
     
     private int sueldo = 0;
-    private int dept = 2;
+
     
     //EL CONSTRUCTOR REFINA EL COMPORTAMIENTO DEL CONSTRUCTOR DEL PADRE
     //PODRE USAR LOS ATRIBUTOS DE MI SUPERCLASE Y ADEMAS PONERLE LOS MIOS
@@ -29,7 +29,7 @@ public class Maestro extends Persona{
     public Maestro(int sueldo, int dept){
         super("Mar", 4);
         this.sueldo = sueldo;
-        this.dept = dept;
+
     }
 
     public int getSueldo() {

@@ -74,8 +74,8 @@ public class LINKIA_1819_M03_UF4_C02 {
         Coche c5 = new Coche("Citroen",52);
         System.out.println("Cual es tu id C4?" + c.getIdentificadorCoche());
         System.out.println("Cual es tu id C5?" + c5.getIdentificadorCoche());
-        Coche vacio = new Coche();
-        System.out.println("Cuantos coches he creado:" + vacio.getContadorIds());
+
+        
     }
 
 }

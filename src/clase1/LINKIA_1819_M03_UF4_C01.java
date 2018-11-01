@@ -19,7 +19,7 @@ public class LINKIA_1819_M03_UF4_C01 {
         
         //Crear un videojuego(objeto) de la clase(Videjuego) vacío.
         Videojuego ff7 = new Videojuego();
-        Videojuego zelda = new Videojuego();
+        
         
         Videojuego metalGear = new Videojuego("Metal Gear", 1998, "Acción");
      

@@ -5,8 +5,7 @@
  */
 package clase5;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+
 
 /**
  *
@@ -19,7 +18,7 @@ public class LINKIA_1819_M03_UF4_C05 {
      */
     public static void main(String[] args) {
 
-        String pal = "aaa";
+ 
 
         try {
 
