@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Act01"/>
+	<classpathentry kind="src" path="Act02"/>
+	<classpathentry kind="src" path="clase8y9"/>
+	<classpathentry kind="src" path="clase10"/>
+	<classpathentry kind="src" path="Act03"/>
+	<classpathentry kind="src" path="ejercicio_03_M03II"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/ant.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/bloat-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/db4o-8.0.276.16149-all-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/db4o-8.0.276.16149-bench.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/db4o-8.0.276.16149-core-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/db4o-8.0.276.16149-cs.optional-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/db4o-8.0.276.16149-cs-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/db4o-8.0.276.16149-db4ounit-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/db4o-8.0.276.16149-instrumentation-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/db4o-8.0.276.16149-nqopt-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/db4o-8.0.276.16149-optional-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/db4o-8.0.276.16149-osgi-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/db4o-8.0.276.16149-osgi-test-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/db4o-8.0.276.16149-taj-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/db4o-8.0.276.16149-tools-java5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
