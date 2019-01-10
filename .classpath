@@ -4,7 +4,6 @@
 	<classpathentry kind="src" path="Act01"/>
 	<classpathentry kind="src" path="Act02"/>
 	<classpathentry kind="src" path="Act03"/>
-	<classpathentry kind="src" path="ejercicio_03_M03II"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.13.jar"/>
 	<classpathentry kind="lib" path="C:/Users/rgcec/OneDrive/git/libDB4O/lib/ant.jar"/>

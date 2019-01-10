@@ -7,7 +7,6 @@ import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import clase6.Videojuego;
 
 
 /**
