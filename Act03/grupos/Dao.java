@@ -47,7 +47,7 @@ public class Dao {
 		consulta.constrain(Grupo.class);
 		consulta.descend("estilo").constrain(estilo).equal();
 		consulta.descend("nombre").orderAscending();
-		ObjectSet resultado = consulta.execute();
+		ObjectSet<?> resultado = consulta.execute();
 		if(resultado.size()==0) {
 			System.out.println("No hay Grupos");
 		}

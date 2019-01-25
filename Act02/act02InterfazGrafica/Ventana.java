@@ -19,10 +19,8 @@ import java.awt.event.ActionEvent;
  */
 public class Ventana extends JFrame{
 	
-	private static final long serialVersionUID = 1L;
 	private JTextField nombre;
 	private JTextField apellido;
-	@SuppressWarnings("rawtypes")
 	private JComboBox edad;
 	private JCheckBox cine;
 	private JCheckBox deporte;
@@ -34,7 +32,6 @@ public class Ventana extends JFrame{
 	public Ventana() {
 		
 		setTitle("Datos del Usuario");
-		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		getContentPane().setLayout(null);
 		
 		JLabel lblNombre = new JLabel("Nombre: ");
@@ -105,7 +102,6 @@ public class Ventana extends JFrame{
 		setSize(450,350);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
 	}
 	
 	public JTextField getNombre() {

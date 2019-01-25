@@ -19,7 +19,7 @@ public class Alumnos {
 
 	public void añadir (String nombre, int edad) throws DemasiadosObjetos{
 		if (misAlumnos.size() == 5) {
-		 throw new DemasiadosObjetos(117) ;
+		 throw new DemasiadosObjetos("117") ;
 		} else {
 			Alumno nuevo = new Alumno(nombre, edad);
 			misAlumnos.add(nuevo);
